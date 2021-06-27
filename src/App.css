@@ -1,0 +1,28 @@
+.app-wrapper {
+  display: grid;
+
+  max-width: 1300px;
+  margin: auto;
+
+  grid-template-areas:
+  "header header" /* в первой строке header занимает две колонки */
+  "nav content";
+
+  grid-template-rows: 95px 1fr; /* сколько строк -> 2, одна 60пх, вторая 1 фракция */
+  grid-template-columns: 1.8fr 10fr; /* сколько колонок -> 2, одна 2 фракции, вторая 10 фракций*/
+}
+
+.app-wrapper-content {
+  grid-area: content;
+  background-color: #fff;
+
+  padding: 5px 20px;
+  box-shadow: 0 1px 0 0 #dce1e6, 0 0 0 1px #e7e8ec;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: #EDEEF0;
+}

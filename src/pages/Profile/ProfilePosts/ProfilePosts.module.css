@@ -1,0 +1,15 @@
+.form {
+    padding: 50px 15px 15px;
+}
+
+.form div textarea {
+    font-size: 16px;
+}
+
+.posts {
+    padding: 5px 15px 15px 15px;
+}
+
+.posts h3 {
+    margin: 0 0 20px 0;
+}

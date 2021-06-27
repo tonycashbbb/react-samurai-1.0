@@ -1,0 +1,43 @@
+.users {
+    width: 700px;
+    margin: 5px auto 0;
+}
+
+.pagination {
+    font-size: 17px;
+
+    width: 1200px;
+    margin: 30px auto 5px;
+}
+
+.pagination span {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.pagination span:last-child {
+    margin-right: 0;
+}
+
+.selected__page {
+    font-weight: 700;
+    transform: scale(1.2);
+}
+
+.spinner {
+    width: 200px;
+    margin: 40px auto;
+}
+
+.go {
+    transition: color 0.1s linear;
+}
+
+.go:hover {
+    color: darkgrey;
+}
+
+.go:active {
+    color: #FFCBF9;
+}

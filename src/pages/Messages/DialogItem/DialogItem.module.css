@@ -1,0 +1,17 @@
+.dialog__item {
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dialog__item:last-child {
+    margin-bottom: 0;
+}
+
+.dialog__item img {
+    display: block;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}

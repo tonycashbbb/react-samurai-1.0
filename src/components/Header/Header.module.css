@@ -1,0 +1,52 @@
+.header {
+    grid-area: header;
+    background-color: #FFEDFD;
+    padding: 5px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    box-shadow: 0 1px 0 0 #dce1e6, 0 0 0 1px #e7e8ec;
+}
+
+.logo {
+    padding: 5px 10px;
+    margin-left: 20px;
+    
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.logo h3 {
+    margin: 0;
+    color: black;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.header img {
+    width: 70px;
+    height: 60px;
+}
+
+.user__row {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__block {
+    font-size: 20px;
+    color: black;
+}
+
+.login__block a {
+    color: black;
+    font-size: 18px;
+}

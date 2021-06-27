@@ -1,0 +1,62 @@
+.user__item {
+    padding: 10px;
+
+    display: flex;
+}
+
+.user__img {
+    text-align: center;
+}
+
+.user__img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    border-radius: 10px;
+    padding: 7px 20px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+
+    transition: background-color 0.2s  linear;
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: #CECECE;
+}
+
+.user__head {
+    width: 100px;
+}
+
+.user__body {
+    margin-left: 20px;
+    padding: 15px 25px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #fff;
+
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.user__status {
+    color: gray;
+    font-size: 15px;
+}

@@ -1,0 +1,24 @@
+.content {
+    background-color: #fff;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form__item {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.form__item input, textarea, button {
+    margin-left: 10px;
+}
+
+.error {
+    font-weight: 700;
+    font-size: 16px;
+    color: orangered;
+}
+
+

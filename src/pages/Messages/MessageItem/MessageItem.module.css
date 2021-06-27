@@ -1,0 +1,15 @@
+.message__item {
+    margin-bottom: 10px;
+}
+
+.message__item p {
+    display: inline-block;
+
+    padding: 5px 15px;
+    background-color: #FFEDFD;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+
+    margin: 0;
+}

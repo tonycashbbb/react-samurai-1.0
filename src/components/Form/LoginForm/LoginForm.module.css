@@ -1,0 +1,35 @@
+.form {
+    margin-left: 50px;
+}
+
+.form .form__item input {
+    padding: 3px 7px;
+    font-size: 15px;
+}
+
+.form .form__item {
+    margin-bottom: 5px;
+}
+
+.form .form__item:last-child {
+    margin-bottom: 0;
+}
+
+.form__item {
+    display: flex;
+}
+
+.remember {
+    margin-left: 5px;
+}
+
+.form__error {
+    width: 215px;
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+
+    padding: 5px 10px;
+
+    border: 1px solid red;
+}
